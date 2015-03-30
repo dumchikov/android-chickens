@@ -1,0 +1,7 @@
+<resources>
+    <string name="action_settings">Настройки</string>
+    <string name="app_name">Курицы Харькова</string>
+    <string name="title_activity_details">Курочка</string>
+    <string formatted="false" name="title_activity_photos">Фото %d из %d</string>
+    <string name="adId">ca-app-pub-5376230270678804/5626159776</string>
+</resources>

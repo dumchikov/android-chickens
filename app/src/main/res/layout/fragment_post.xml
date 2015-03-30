@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chickens.kharkov.ua.chickens.Details.PostFragment"
+    android:background="@color/white">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/detailsPgb"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/pull_list_view_progressbar"
+        android:indeterminateDuration="1000"/>
+
+    <chickens.kharkov.ua.chickens.GridViewWithHeaderAndFooter
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gridView"
+        android:numColumns="2"
+        android:scrollbars="vertical"/>
+
+</FrameLayout>

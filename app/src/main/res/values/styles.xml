@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+     <item name="android:windowContentOverlay">@null</item>
+     <item name="android:actionBarStyle" tools:ignore="NewApi">@style/MyActionBar</item>
+     <item name="actionBarStyle">@style/MyActionBar</item>
+</style>
+
+<style name="MyActionBar" parent="Widget.AppCompat.ActionBar">
+    <item name="android:background"  tools:ignore="NewApi">@color/main_color</item>
+    <item name="background">@color/main_color</item>
+    <item name="android:titleTextStyle" tools:ignore="NewApi">@style/TitleBarTextColor</item>
+    <item name="titleTextStyle">@style/TitleBarTextColor</item>
+    <item name="logo">@drawable/small_logo</item>
+    <item name="itemPadding">12px</item>
+    <item name="displayOptions">useLogo|showTitle|showHome</item>
+    <item name="elevation">0dp</item>
+</style>
+
+<style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textSize">26sp</item>
+</style>
+
+
+</resources>

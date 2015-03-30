@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="load_more"></string>
+    <string name="loading"></string>
+    <string name="updating"></string>
+    <string name="update_release"></string>
+    <string name="refresh"></string>
+</resources>
